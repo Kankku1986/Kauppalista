@@ -1,0 +1,92 @@
+body {
+  margin: auto;
+  height: 100vh;
+  max-width: 30em;
+  background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 20px,
+      #e90a30 60px,
+      #e8810c 60px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0,
+      transparent 20px,
+      #e90a30 60px,
+      #ffea0d 60px
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      transparent 40px,
+      #fc4225 40px,
+      #ffd700 40px
+    );
+
+  background-blend-mode: multiply;
+}
+
+p {
+  float: right;
+  float: down;
+  color: gold;
+  text-shadow: 1px 1px 3px black;
+  margin-right: 5px;
+}
+
+h1 {
+  background-color: gold;
+  border-radius: 20px;
+  box-shadow: 8px 8px 5px red;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px red;
+}
+
+li {
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px black, 0px 0px 6px red;
+  font-size: 25px;
+}
+
+.i {
+  float: right;
+  background-color: gold;
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px red;
+  border-color: red;
+}
+
+.inputBar {
+  border-radius: 5px;
+  border-color: red;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  box-shadow: 3px 3px 5px red;
+  background-color: gold;
+}
+
+.button1 {
+  background-color: gold;
+  color: black;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px red;
+  border-color: red;
+}
